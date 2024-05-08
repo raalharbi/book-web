@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Books</h1>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li class="ctn"><a  href="contactus.html">Contact us</a></li>
+        </ul>
+        <img class="menu-btn" src="image/menu-button-icon-512x512-x86bgpt9.png" alt="">
+    </nav>
+    <!--Navbar-->
+
+    <!--Header-->
+    <header>
+        <div class="header-content">
+            <h2>Welcome to our Book Website!</h2>
+            <div class="line"></div>
+            </br>
+            <a href="signin.html" class="ctn sign-in" style="background-color: white;color: #436850;">Sign in</a>
+            <a href="signup.html" class="ctn sign-in" style="background-color: #436850;color: white;">Sign up</a>
+
+        </div>
+    </header>
+    <!--Header-->
+
+    <!--Footer-->
+    <section class="footer">
+        <div class="line-footer"></div>
+        <p>© 2024 . All rights reserved.</p>
+    </section>
+    <!--Footer-->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

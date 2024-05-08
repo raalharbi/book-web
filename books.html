@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Books</h1>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li class="ctn"><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <img class="menu-btn" src="image/menu-button-icon-512x512-x86bgpt9.png" alt="">
+    </nav>
+    <div class="card-container">
+        <div class="card">
+            <img src="image/all-the-light.jpeg" alt="">
+            <div class="card-content">
+                <h3>All the Light We Can not See</h3>
+                <p class="author">By  Anthony Doerr </p>
+                <p>Marie-Laure lives with her father in Paris near the Museum of Natural History ...</p>
+                <a href="all-the-light.html" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/the-kite-runner-2.jpg" alt="">
+            <div class="card-content">
+                <h3>The Kite Runner</h3>
+                <p class="author">By Khaled Hosseini</p>
+                <p> Twelve-year-old Amir is desperate to win the local kite-fighting   </p>
+                <a href="the-kite.html" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/don't say.jpg" alt="">
+            <div class="card-content">
+                <h3>Don't say you're afraid</h3>
+                <p class="author">By Giuseppe Catozzella</p>
+                <p>At eight years of age, Samia lives to run. She shares her dream with her best friend ...</p>
+                <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="line-footer"></div>
+        <p>© 2024 . All rights reserved.</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

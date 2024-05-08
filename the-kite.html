@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .article-book ul {
+            color: black;
+            list-style: disc;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Books</h1>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li class="ctn"><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <img class="menu-btn" src="image/menu-button-icon-512x512-x86bgpt9.png" alt="">
+    </nav>
+    <div class="card-container-book">
+        <div class="card-book">
+
+            <div class="book-title" >
+                <h3 style="display: block;">The Kite Runner is the first novel by Afghan-American author </h3>
+                <p class="author-book">By Khaled Hosseini </p>
+            </div>
+        </div>
+        <div class="article-book" >
+            <ul>
+               <h3> Characters, Themes, and Quotes – The Kite Runner</h3>
+                <li>
+                  <strong>Amir:</strong> The protagonist and narrator of the novel, Amir is a wealthy boy who grows up in Kabul, Afghanistan with a sense of entitlement. He manipulates his privileged upbringing over his loyal best friend and servant, Hassan, failing to come to his aid when Hassan is being raped after a kite-fighting tournament. Overwhelmed by guilt, Amir undergoes personal growth and moves to the U.S. with his father, Baba, in search of redemption. Throughout the story, Amir evolves from a selfish child to a selfless adult. He eventually marries Soraya and, unable to have children of their own, they adopt Hassan's son, Sohrab.
+                </li>
+                <li>
+                  <strong>Baba:</strong> Father of Amir and secretly the father of Hassan, Baba is a larger-than-life figure who works hard and remains committed to his goals despite doubts from others. He adheres to strict moral principles and often places high expectations on Amir. Baba's great sin is committing adultery with Ali's wife, a Hazara woman, and concealing the fact that he is Hassan's biological father. While he tries to make amends through acts of charity, such as building an orphanage, his guilt persists until he and Amir move to America and he finally connects with at least one of his sons. Baba transitions from a wealthy, respected but unhappy businessman in Afghanistan to a content gas station worker in America.
+                </li>
+                <li>
+                  <strong>Hassan:</strong> Amir's loyal childhood playmate, best friend, unknown half-brother, and servant of Baba's, Hassan is a Hazara boy with a cleft lip, symbolizing his low social status. Despite facing racism, oppression, and violence, Hassan remains loyal, forgiving, and good-natured throughout his short life. He is an excellent kite runner and naturally intelligent, but his illiteracy and social class as a poor ethnic Hazara relegate him to an inferior position in Afghan society. Though absent for much of the novel, Hassan significantly influences the character development of Amir, Baba, and even Sohrab.
+                </li>
+                <li>
+                  <strong>Rahim Khan:</strong> Baba's closest friend, business partner, and confidant, Rahim Khan knows all of Baba's secrets, including his affair with Sanaubar and his fatherhood of Hassan. He serves as a friend and father figure to Amir, providing the attention and affection that Baba withholds and filling the emotional void. For Sohrab, Rahim Khan becomes a savior by guiding Amir to return to Afghanistan and adopt Sohrab after Hassan and his wife, Farzana, are murdered by the Taliban.
+                </li>
+              </ul>
+            <div class="book-voice" style="margin-left: 20px; margin-top: 10px;">
+                <h3>The Kite Runner Audio:</h3>
+                <video style="width: 30%; border-radius: 40px;"
+                src="vedio/Khaled Hosseini The Kite Runner Audiobook.mp4"
+                controls></video>
+            </div>
+            </br>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Download</th>
+                    </tr>
+                    <tr>
+                        <td> <span style="font-weight: bold;">Book</span>- The Kite Runner</td>
+                        <td><a class="link-book" target="_blank"
+                                href="http://al-nnas.com/BIBLTEK/khld64.pdf">Click
+                                here</a></td>
+                    </tr>
+                    <tr>
+                        <td> <span style="font-weight: bold;">Voice</span>- The Kite Runner</td>
+                        <td><a class="link-book" target="_blank"
+                                href="http://al-nnas.com/BIBLTEK/khld64.pdf">Click
+                                here</a></td>
+                    </tr>
+                    <tr>
+                        <td> <span style="font-weight: bold;">video</span>- The Kite Runner</td>
+                        <td><a class="link-book" target="_blank"
+                                href="http://al-nnas.com/BIBLTEK/khld64.pdf">Click
+                                here</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+    <section class="footer">
+        <div class="line-footer"></div>
+        <p>© 2024 . All rights reserved.</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

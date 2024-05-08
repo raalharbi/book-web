@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Books</h1>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li class="ctn"><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <img class="menu-btn" src="image/menu-button-icon-512x512-x86bgpt9.png" alt="">
+    </nav>
+    <section class="services">
+        <div class="title">
+            <h1>Our services</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <i class="fa fa-comments" style="font-size:40px;"></i>
+                <h4>Communication</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maxime fuga atque iusto et sequi sunt
+                    earum nisi, facilis placeat magni voluptates ipsa inventore eligendi asperiores facere. Nobis,
+                    aspernatur similique!</p>
+            </div>
+            <div class="col">
+                <i class="fa fa-book" style="font-size:40px;"></i>
+                <h4>Reading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maxime fuga atque iusto et sequi sunt
+                    earum nisi, facilis placeat magni voluptates ipsa inventore eligendi asperiores facere. Nobis,
+                    aspernatur similique!</p>
+            </div>
+            <div class="col">
+                <i class="fa fa-podcast" style="font-size:40px;"></i>
+                <h4>Podcast</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maxime fuga atque iusto et sequi sunt
+                    earum nisi, facilis placeat magni voluptates ipsa inventore eligendi asperiores facere. Nobis,
+                    aspernatur similique!</p>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+    <section class="footer">
+        <div class="line-footer"></div>
+        <p>© 2024 . All rights reserved.</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
